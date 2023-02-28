@@ -25,5 +25,6 @@ router.delete('/products/:id', productsController.remove);
 router.post('/fatorial', functions.fatorial);
 router.post('/somatorio-par', functions.somatorioNumeroPar);
 router.post('/somatorio-palavras', functions.somatorioPalavrasCincoCaracteres);
+router.get('/promisse', functions.promisseExample);
 
 module.exports = router;
