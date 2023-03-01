@@ -1,5 +1,42 @@
 ## lytex-test-back
 
+O projeto foi desenvolvido usando:
+
+```txt
+Node: 18.14.2
+Package Manager: npm 9.5.1
+MongoDB: 6.0.4
+```
+
+Para configurar o projeto execute os comandos abaixo:
+
+Crie o arquivo para as variáveis de ambiente
+```txt 
+cp .env.example .env
+```
+
+Instale as dependencias
+
+```txt
+npm install
+```
+
+Execute o projeto
+```txt 
+npm start
+```
+
+O projeto estará acessivel em:
+```txt
+http://localhost:3000
+```
+
+Abaixo segue um arquivo exportado do [insomnia](https://insomnia.rest/download) com as rotas de api com exemplos de uso
+
+https://drive.google.com/file/d/1OgGzAEvyDDhYCXtIgM5ObHwK-5YZzo-W/view?usp=sharing
+
+<hr/>
+
 Explique o que é uma Promise em Javascript e dê um exemplo de uso.
 
 Promise é um objeto que representa uma falha ou conclusâo de operação assíncrona, ele pode estar em três estados, ```pending``` quando ela está em execução, ```fullfiled``` quando há um retorno de sucesso e ```rejected``` quando ocorre algum erro, ela pode ser usada para receber valores de forma síncrona, ou pode ser retornado o valor em outro momento do fluxo da operação.
