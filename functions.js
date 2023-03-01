@@ -52,5 +52,5 @@ async function readFile() {
 module.exports = {
     fatorial,
     somatorioNumeroPar,
-    readFile
+    readFile   
 }
